@@ -1,0 +1,26 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+<div class="text-center">
+    <h1 class="display-4">Currency Converter</h1>
+</div>
+<form name="currencyConverterForm" action="#" method="">
+    <div class="div-main">
+        <div class="div-currencies">
+            <p>From:</p>
+            <select name="currenciesFrom" id="currenciesFrom"></select>
+        </div>
+        <div class="div-convert">
+            <label for="amount">Insert Amount</label>
+            <input type="number" value=0 min=1 step=1 id="amount" name="amount" style="width: 250px"/>
+            <br />
+            <input type="text" id="result" name="result" placeholder="result..." readonly style="width: 250px"/>
+            <input type="button" value="Convert" name="convert" id="convert" style="margin-top: 10px"/>
+        </div>
+        <div class="div-currencies">
+            <p>To:</p>
+            <select name="currenciesTo" id="currenciesTo"></select>
+        </div>
+    </div>
+</form>
