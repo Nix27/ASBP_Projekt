@@ -14,5 +14,69 @@ html {
 }
 
 body {
-  margin-bottom: 60px;
+    margin-bottom: 60px;
+    background: linear-gradient(to right, #3EC5CA, #9848DF);
+}
+
+.nav-bg {
+    background-color: #525252;
+}
+
+li > a:hover {
+    font-size: 18px;
+}
+
+h1 {
+    color: white;
+}
+
+.div-main {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 70px;
+}
+
+.div-currencies {
+    width: 30%;
+    height: 170px;
+    text-align: center;
+}
+
+.div-currencies > p {
+    font-size: 2em;
+    font-weight: bold;
+    padding-top: 17px;
+    color: black;
+    opacity: 0.8;
+}
+
+.div-currencies > select {
+    width: 80%;
+    margin: auto;
+}
+
+.div-convert {
+    width: 30%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+}
+
+label {
+    font-size: 1.5em;
+    color: black;
+}
+
+@media only screen and (max-width: 768px) {
+    .div-main {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .div-currencies > select {
+        width: 100%;
+    }
 }

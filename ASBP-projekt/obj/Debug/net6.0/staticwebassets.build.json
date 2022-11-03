@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "yseqEa7PLhAgps4zjzB3AKcewFduzIXnlsUe1znPIFY=",
+  "Hash": "pnV9djMxdMP6rWbqEYXFCnmfmt+pYH+0tXf1TpMocfQ=",
   "Source": "ASBP-projekt",
   "BasePath": "_content/ASBP-projekt",
   "Mode": "Default",
@@ -1086,23 +1086,6 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\css\\bootswatchTheme.css"
-    },
-    {
-      "Identity": "C:\\Users\\Nix\\source\\repos\\ASBP-projekt\\ASBP-projekt\\wwwroot\\css\\CurrencyConverter.css",
-      "SourceId": "ASBP-projekt",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Nix\\source\\repos\\ASBP-projekt\\ASBP-projekt\\wwwroot\\",
-      "BasePath": "_content/ASBP-projekt",
-      "RelativePath": "css/CurrencyConverter.css",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\css\\CurrencyConverter.css"
     },
     {
       "Identity": "C:\\Users\\Nix\\source\\repos\\ASBP-projekt\\ASBP-projekt\\wwwroot\\css\\site.css",

@@ -18,20 +18,12 @@
                 </button>
                 <div class="navbar-collapse collapse d-sm-inline-flex justify-content-between">
                     <ul class="navbar-nav flex-grow-1 justify-content-end">
-                        @if (User.Identity.IsAuthenticated)
-                        {
-                            <li class="nav-item d-flex" style="color: white">
-                                <p style="padding-top: 9px; margin-right:20px">@User.Identity.Name</p>
-                            </li>
-                            <li class="nav-item d-flex">
-                                <a class="nav-link text-white" asp-area="MicrosoftIdentity" asp-controller="Account" asp-action="SignOut">Sign out</a>
-                            </li>
-                        }
-                        else{
-                            <li class="nav-item d-flex">
-                                <a class="nav-link text-white" asp-area="MicrosoftIdentity" asp-controller="Account" asp-action="SignIn">Sign In</a>
-                            </li>
-                        }
+                        <li class="nav-item d-flex" style="color: white">
+                            <p style="padding-top: 9px; margin-right:20px">@User.Identity.Name</p>
+                        </li>
+                        <li class="nav-item d-flex">
+                            <a class="nav-link text-white" asp-area="MicrosoftIdentity" asp-controller="Account" asp-action="SignIn">SignIn</a>
+                        </li>
                     </ul>
                 </div>
             </div>

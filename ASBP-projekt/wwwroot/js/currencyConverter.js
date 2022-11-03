@@ -1,12 +1,19 @@
 ﻿const currencies = {
     AUD: "Australian Dollar",
-    CAD: "Canadian Dollar",
+    AED: "UAE Dirham",
+    AFN: "Afghan Afghani",
+    ALL: "Albanian Lek",
+    AMD: "Armenian Dram",
+    ANG: "Netherlands Antillian Guilder",
+    AOA: "Angolan Kwanza",
     EUR: "Euro",
-    GBP: "British Pound",
+    HRK: "Croatian Kuna",
     INR: "Indian Rupee",
+    CAD: "Canadian Dollar",
+    GBP: "British Pound",
     JPY: "Japanese Yen",
     USD: "United States Dollar",
-    ZAR: "South African Rand",
+    ZAR: "South African Rand"
 };
 
 function getOptions(data) {

@@ -3,24 +3,24 @@
 }
 
 <div class="text-center">
-    <h1 class="display-4">Currency Converter</h1>
+    <h1 class="display-4" style="font-weight: bold; color: black; opacity: 0.8">Currency Converter</h1>
 </div>
 <form name="currencyConverterForm" action="#" method="">
     <div class="div-main">
         <div class="div-currencies">
             <p>From:</p>
-            <select name="currenciesFrom" id="currenciesFrom"></select>
-        </div>
-        <div class="div-convert">
-            <label for="amount">Insert Amount</label>
-            <input type="number" value=0 min=1 step=1 id="amount" name="amount" style="width: 250px"/>
-            <br />
-            <input type="text" id="result" name="result" placeholder="result..." readonly style="width: 250px"/>
-            <input type="button" value="Convert" name="convert" id="convert" style="margin-top: 10px"/>
+            <select name="currenciesFrom" id="currenciesFrom" class="form-select"></select>
         </div>
         <div class="div-currencies">
             <p>To:</p>
-            <select name="currenciesTo" id="currenciesTo"></select>
+            <select name="currenciesTo" id="currenciesTo" class="form-select"></select>
+        </div>
+        <div class="div-convert">
+            <label for="amount">Insert Amount</label>
+            <input type="number" value=0 min=1 step=1 id="amount" name="amount" style="width: 250px" class="form-control"/>
+            <br />
+            <input type="text" id="result" name="result" placeholder="result..." readonly style="width: 250px" class="form-control"/>
+            <input type="button" value="Convert" name="convert" id="convert" style="margin-top: 10px" class="btn btn-info"/>
         </div>
     </div>
 </form>
